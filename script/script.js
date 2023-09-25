@@ -43,7 +43,7 @@ sectionFirst.appendChild(container);
 const sectionSecond = document.createElement('section');
 sectionSecond.classList.add('section-second');
 root.appendChild(sectionSecond);
-// document.body.appendChild(root);
+
 
 const h2 = document.createElement('h2');
 h2.textContent = 'НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ';
@@ -58,7 +58,7 @@ for (let i = 0; i <= 2; i++) {
     container2.appendChild(project);
 
     let img = document.createElement('img');
-    img.src = "URL('HW-Header/media/Project.svg')";
+    // img.src = "URL('HW-Header/media/Project.svg')";
     project.appendChild(img);
 
     let hr= document.createElement('hr');
@@ -121,7 +121,6 @@ for (let i = 0; i <= 2; i++) {
     serviceItem.appendChild(group);
 
     let img = document.createElement('img');
-    img.src = "URL('HW-Header/media/home.svg')";
     group.appendChild(img);
 
     let h4= document.createElement('h4');
@@ -149,7 +148,6 @@ for (let i = 0; i <= 5; i++) {
     serviceItem1.appendChild(group1);
 
     let img = document.createElement('img');
-    img.src = "URL('HW-Header/media/home.svg')";
     group1.appendChild(img);
 
     let h4= document.createElement('h4');

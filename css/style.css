@@ -14,7 +14,7 @@ body {
     background-size: cover; 
     width: 100%;
     min-height: 740px;
-    font-family: 'Oswald';  
+    font-family: 'Oswald', sans-serif;  
 }
 
 .section-first h1 {
@@ -25,10 +25,9 @@ body {
     color: #fff;
     padding-top: 10%;
     padding-bottom: 35px;
-    font-family: 'Oswald';
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    max-width: 734px;
-    margin-left: 31%;
+    
 }
 
 .section-first p {
@@ -41,13 +40,14 @@ body {
 .whiteContainer {
     background: #FFF;
     max-width: 57%;
-    min-height: 300px;
+    min-height: 500px;
     margin-left: 21% ;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3% 7%;
     gap: 30px;
+    border: none;
 }
 .box-container {
     display: flex;
@@ -99,10 +99,11 @@ h5 {
 }
 
 .project-container img{
-    /* background-image: "url('/HW-Header/media/Project.svg')"; */
-    max-width: 350px;
-    min-height: 380px;
+    width: 100%;
+    height: 18vw;
     margin-bottom: 45px;
+    background: url(../media/Project.svg);
+    background-size: cover;
     
 }
 
@@ -160,16 +161,17 @@ hr{
     padding-left: 21%;
     display: grid;
     grid-template-columns: 2;
+    padding-right: 10px;
 
 }
 .div-for-items h2{
     color: #FFF;
     font-family: 'Oswald', sans-serif;
-    font-size: 48px;
+    font-size: 3rem;
+    text-align: start;
     font-weight: 700;
-    letter-spacing: 0.96px;
-    max-width: 537px;
     padding-top: 30px;
+    
 }
 
 .div-for-items h3{
@@ -177,7 +179,7 @@ hr{
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    letter-spacing: 0.48px;
+    padding-bottom: 30px;
 }
 
 .customButton {
@@ -191,9 +193,8 @@ hr{
     font-weight: 500;
     letter-spacing: 0.7px;
     cursor: pointer;
-    padding: 14px 46px ;
     margin-right: 21%;
-    margin-top: 63px;
+    /* margin-top: 63px; */
     
 }
 .customButton:hover{
@@ -204,66 +205,127 @@ hr{
 .sectionServices{
     background-color: #FFF;
     width: 100%;
+    margin-left: 21%;
+    margin-right: 21%;
+
 }
 
 .service_item{
     display: flex;
-    justify-content: space-between;
+    width: 57.8%;
     align-items: center;
-    margin-left: 21%;
-    margin-right: 21%;
     gap: 30px;
 }
 
-.sectionServices h2, .sectionServices1 h2{
+.sectionServices h2{
     color: #000;
+    padding-left: 21%;
     font-family: 'Oswald', sans-serif;
     font-size: 2.25rem;
     font-weight: 500;
     text-transform: uppercase;
-    margin-top: 150px;
-    text-align: center;
-    margin-bottom: 66px;
+    margin-top: 7.8%;
+    margin-bottom: 3.4%;
+
 }
-.group, .group1{
-    width: 350px;
-    height: 250px;
+.group{
+    max-width: 350px;
+    text-align: center;
     background: #F7F7F7;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .group img, .group1 img{
     width: 60px;
     height: 40px;
-    margin-top: 59px;
-    margin-left: 145px;
-    margin-bottom: 30px;
-    /* background: url('.media/home.svg');
-    background-size: cover; */
-   
+    /* margin-left: 7.5%; */
+    background: url('../media/home.svg');
+    background-size: cover;
 }
 
-.group h4, .group1 h4{
+.group h4 {
     color: #000;
-    max-width: 172px;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 21px;
+    font-size: 1.3rem;
     font-weight: 500;
-    letter-spacing: 0.42px;
-    margin-left: 88px;
+    padding-left: 3%;
 }
 
 .sectionServices1{
     background-color: #FFF;
     width: 100%;
+    margin-left: 21%;
+    margin-right: 21%;
 }
+
+.sectionServices1 h2{
+    color: #000;
+    padding-left: 21%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 7.8%;
+    margin-bottom: 3.4%;
+
+}
+.group1 h4{
+    color: #000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-left: 5%;
+}
+
+.group1{
+    max-width: 350px;
+    text-align: center;
+    background: #F7F7F7;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
 .service_item1{
     display: grid;
+    width: 57.8%;
     grid-template-columns: repeat (3, 1fr);
     grid-template-areas: "a b c" "d e f";
-    justify-content: center;
+    /* justify-content: space-evenly; */
     gap: 30px;
     padding-bottom: 60px;
 }
+
+@media only screen and (min-width: 1201px){
+    .section-first h1{
+        font-size: 64px;
+        padding-right: 20%;
+        padding-left: 20%;
+        }
+    }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .section-first h1{
+        font-size: 52px; 
+        padding-right: 10%;
+        padding-left: 10%;  
+    }       
+}
+
+@media only screen and (min-width: 480px) and (max-width: 787px) {
+    .section-first h1{
+        font-size: 40px;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .sectionServices h2,
+    .sectionServices1 h2{
+        padding-left: 11%;
+    } 
+    
+    }
 
 
