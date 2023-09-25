@@ -78,3 +78,192 @@ h5 {
     text-transform: uppercase;
     color: #999;
 }
+
+.section-second{
+    background: #fff; 
+    width: 100%;
+    min-height: 1000px;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.section-second h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 20%;
+    margin-bottom: 60px;
+}
+
+.project-container img{
+    /* background-image: "url('/HW-Header/media/Project.svg')"; */
+    max-width: 350px;
+    min-height: 380px;
+    margin-bottom: 45px;
+    
+}
+
+.bigContainer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+.project-container h4{
+    color: #404149;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.project-container p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color:  #999;
+    margin-bottom: 200px;
+}
+
+hr{
+    width: 55px;
+    height: 6px;
+    background-color: #F7654A;
+    border: none;
+    margin-bottom: 15px;
+}
+.project-container{
+    max-width: 350px;
+}
+
+.sectionRequest{
+    background-color: #F7654A;
+    width: 100%;
+    min-height: 181px ;
+}
+
+.div-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.div-for-items {
+    padding-left: 21%;
+    display: grid;
+    grid-template-columns: 2;
+
+}
+.div-for-items h2{
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.96px;
+    max-width: 537px;
+    padding-top: 30px;
+}
+
+.div-for-items h3{
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+}
+
+.customButton {
+    width: 175px;
+    height: 49px;
+    background: #FFF;
+    border: none;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+    padding: 14px 46px ;
+    margin-right: 21%;
+    margin-top: 63px;
+    
+}
+.customButton:hover{
+    background-color: antiquewhite;
+    transform: scale(1.2);
+}
+
+.sectionServices{
+    background-color: #FFF;
+    width: 100%;
+}
+
+.service_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 21%;
+    margin-right: 21%;
+    gap: 30px;
+}
+
+.sectionServices h2, .sectionServices1 h2{
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 66px;
+}
+.group, .group1{
+    width: 350px;
+    height: 250px;
+    background: #F7F7F7;
+}
+
+.group img, .group1 img{
+    width: 60px;
+    height: 40px;
+    margin-top: 59px;
+    margin-left: 145px;
+    margin-bottom: 30px;
+    /* background: url('.media/home.svg');
+    background-size: cover; */
+   
+}
+
+.group h4, .group1 h4{
+    color: #000;
+    max-width: 172px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.42px;
+    margin-left: 88px;
+}
+
+.sectionServices1{
+    background-color: #FFF;
+    width: 100%;
+}
+.service_item1{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-areas: "a b c" "d e f";
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 60px;
+}
+
+
