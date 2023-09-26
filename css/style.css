@@ -72,7 +72,7 @@ h4 {
 }
 
 h5 {
-    font-family: 'Oswald';
+    font-family: 'Oswald',sans-serif;
     font-size: 1.12rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -311,21 +311,69 @@ hr{
         font-size: 52px; 
         padding-right: 10%;
         padding-left: 10%;  
-    }       
+    } 
+    .sectionServices h2, 
+    .sectionServices1 h2{
+        padding-left: 10%;
+    }
+    .whiteContainer{
+        gap: 0;
+    }      
 }
 
 @media only screen and (min-width: 480px) and (max-width: 787px) {
     .section-first h1{
         font-size: 40px;
-        max-width: 400px;
-        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%; 
     }
 
+    .whiteContainer{
+        display: block;
+    }
+     
+    .section-second h2{
+        padding-left: 5%;
+    }
+    
+    .bicContainer{
+        padding-left: 3%;
+        padding-right: 3%;
+        gap: 3px;
+    }
+    
+    .sectionServices{
+        width: 100%;
+    }
+   
     .sectionServices h2,
     .sectionServices1 h2{
-        padding-left: 11%;
+        padding-left: 5%;
     } 
-    
+    .div-for-items h2{
+        font-size: 2rem;
+    }
+
+    .div-items{
+        display: block;
+    }
+
+    .div-for-items h3{
+        font-size: 0.9rem;
+    }
+    .customButton{
+        margin-left: 35%;
+        margin-bottom: 5%;
+    }
+
+    .service_item{
+        gap: 10px
+    }
+
+    .group h4,
+    .group1 h4{
+        font-size: 1rem ;
+    }
     }
 
 
